@@ -1,5 +1,7 @@
 # ETL Intro
 
+As the old specialisterne API is permanently shut down, then the update_database process will not work unless you remove this line from the code: ``self.spec_etl(from_time=times_dict["spec"])``
+
 This program's purpose is to extract, transform and load data from external APIs to an internal database.
 
 ## Table of Contents
